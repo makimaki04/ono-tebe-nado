@@ -220,7 +220,7 @@
 }
 
 .lots__look-more-link {
-  display: inline-block;
+  display: block;
   text-underline-position: under;
   margin: 30px 0 2px 40px;
   font-size: 20px;
@@ -228,7 +228,6 @@
 }
 
 .about {
-  min-height: 487px;
   padding: 0 50px;
   display: grid;
   grid-template-columns: 430px 1fr;
@@ -257,6 +256,7 @@
 }
 
 .about__title {
+  padding-top: 100px;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
