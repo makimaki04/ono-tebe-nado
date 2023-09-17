@@ -31,6 +31,10 @@
   border-bottom: 1px solid black;
 }
 
+.header__link_active:hover {
+  color: #000000;
+}
+
 .header__link.header__link_active {
   border-bottom: none;
 }
@@ -165,6 +169,11 @@
   display: block;
   height: 100%;
   text-decoration: none;
+  transition: 0.5s;
+}
+
+.card-link:hover {
+  transform: rotate(3deg) translate(5px);
 }
 
 .card {
@@ -293,6 +302,10 @@
 .footer__link {
   text-decoration: none;
   border-bottom: 1px solid black;
+}
+
+.footer__link_active:hover {
+  color: #000000;
 }
 
 .footer__link.footer__link_active {

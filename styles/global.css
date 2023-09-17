@@ -29,6 +29,13 @@ a {
   color: inherit;
 }
 
+a:hover {
+  color: #FA8072;
+}
+
 img {
   width: 100%;
 }
+
+
+
